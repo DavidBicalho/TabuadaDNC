@@ -14,16 +14,16 @@
         <div>
             <p>
                 De qual numero voce quer saber a tabuada? <br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="num">
             </p>
         </div>
         <div>
             <p>
                 Multiplicado por quanto? <br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="and">
             </p>
             <p>
-                <input type="button" value="Calcular" id="botao">
+                <input type="button" value="Calcular" id="botao" onclick="tabuada()">
             </p>
         </div>
         <div id="resposta">
@@ -31,6 +31,10 @@
         </div>
         
     </section>
+
+    <script src="tabuada_script.js">
+
+    </script>
     
 </body>
 </html>
